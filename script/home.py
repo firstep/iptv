@@ -128,7 +128,8 @@ def generateM3U8(file):
 
             if "ct" in c:
                 line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], k, c["name"])
-                line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
+                #line2 = homeLanAddress + '/rtp/' + c["address"] + "\n"
+                line2 = c["address"] + "\n"
             else:
                 line = '#EXTINF:-1 tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (getID(), c["name"], k, c["name"])
                 line2 = c["address"] + "\n"
@@ -158,7 +159,7 @@ def generateTXT(file):
 
 def generateHome():
     generateM3U8("./home/iptv.m3u8")
-    generateTXT("./home/iptv.txt")
+    //generateTXT("./home/iptv.txt")
 
 #exit(0)
 
@@ -188,7 +189,7 @@ for tr in soup.find_all(name='tr'):
     if group not in m:
         m[group] = []
 
-    m[group].append({"id": td[0].string, "name": name, "address": td[2].string, "ct": True, "icon": icon})
+    m[group].append({"id": td[0].string, "name": name, "address": td[6].string, "ct": True, "icon": icon})
 
 
 appendOnlineIptvFromTvbox(m)
