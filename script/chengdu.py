@@ -78,7 +78,7 @@ for tr in soup.find_all(name='tr'):
     if td[0].string == "序号":
         continue
 
-    m.append({"id": td[0].string, "name": td[1].string, "address": td[2].string})
+    m.append({"id": td[0].string, "name": td[1].string, "address": td[6].string})
 
 
 listUnused=["单音轨", "画中画", "热门", "直播室", "爱", "92"]
@@ -106,7 +106,8 @@ for c in m:
 
     line = '#EXTINF:-1 tvg-logo="%s" tvg-id="%s" tvg-name="%s" group-title="%s",%s\n' % (c["icon"], c["id"], c["name"], c["tag"], c["name"])
     file.write(line)
-    line = 'http://10.10.10.1:8389/rtp/' + c["address"] + "\n"
+    #line = 'http://10.10.10.1:8389/rtp/' + c["address"] + "\n"
+    line = c["address"] + "\n"
     file.write(line)
 
 file.close()
