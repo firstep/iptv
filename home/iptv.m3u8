@@ -1,4 +1,4 @@
-#EXTM3U name="成都电信IPTV - 2025-07-14T03:25:20Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
+#EXTM3U name="成都电信IPTV - 2025-07-21T03:28:09Z" url-tvg="http://epg.51zmt.top:8000/e.xml,https://epg.112114.xyz/pp.xml"
 
 #EXTINF:-1 tvg-logo="http://epg.51zmt.top:8000/tb1/CCTV/CCTV1.png" tvg-id="1" tvg-name="CCTV1" group-title="CCTV",CCTV1
 rtsp://182.139.235.40/PLTV/88888896/224/3221228807/10000100000000060000000003732597_0.smil
@@ -180,8 +180,6 @@ rtsp://182.139.235.40/PLTV/88888895/224/3221228037/10000100000000060000000003575
 rtsp://182.139.235.40/PLTV/88888893/224/3221227159/10000100000000060000000001098397_0.smil
 #EXTINF:-1 tvg-logo="" tvg-id="186" tvg-name="i成都" group-title="四川",i成都
 rtsp://182.139.235.40/PLTV/88888896/224/3221228398/647574497.smil
-#EXTINF:-1 tvg-logo="" tvg-id="205" tvg-name="四川省首届“蜀乡村歌”大赛总决赛" group-title="四川",四川省首届“蜀乡村歌”大赛总决赛
-rtsp://182.139.235.40/PLTV/88888896/224/3221228533/678608065.smil
 #EXTINF:-1 tvg-logo="" tvg-id="23" tvg-name="精彩导视" group-title="其他",精彩导视
 rtsp://182.139.235.40/PLTV/88888896/224/3221228426/613328510.smil
 #EXTINF:-1 tvg-logo="" tvg-id="49" tvg-name="中国交通" group-title="其他",中国交通
@@ -344,7 +342,7 @@ rtsp://182.139.235.40/PLTV/88888896/224/3221228591/681159125.smil
 rtsp://182.139.235.40/PLTV/88888896/224/3221228570/681159121.smil
 #EXTINF:-1 tvg-logo="" tvg-id="204" tvg-name="云演艺宣传" group-title="其他",云演艺宣传
 rtsp://182.139.235.40/PLTV/88888896/224/3221228538/678607124.smil
-#EXTINF:-1 tvg-logo="" tvg-id="206" tvg-name="华西证券" group-title="其他",华西证券
+#EXTINF:-1 tvg-logo="" tvg-id="205" tvg-name="华西证券" group-title="其他",华西证券
 rtsp://182.139.235.40/PLTV/88888896/224/3221228657/720958029.smil
 #EXTINF:-1 tvg-id="408" tvg-name="黑莓电影" group-title="精品",黑莓电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
